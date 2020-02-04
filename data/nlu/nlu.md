@@ -1882,6 +1882,7 @@
 - what you do
 - what you doing?
 - what you talk about?
+- Could you help me
 
 ## intent:ask_wherefrom
 - Are you from around here?
@@ -2258,7 +2259,7 @@
 - I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
-- purchase rasa enterprise 
+- purchase rasa enterprise
 - buy rasa enterprise
 - Ok I want to talk to your sales team immediately
 - Please connect me to someone from sales
@@ -4832,6 +4833,7 @@
 - there is error
 - why do I get errors using rasa?
 - there are some python incompatibilities
+- How do I deploy in [Kubernetes](location)?
 
 ## intent:telljoke
 - Can you tell a joke?
@@ -4914,11 +4916,8 @@
 - thx
 - yes thanks
 
-## lookup: location
-data/nlu/lookups/location.txt
-
-## lookup: product
-data/nlu/lookups/products.txt
+## intent:rasa_cost
+- Hi is rasa fre?
 
 ## synonym: duration
 - how long
@@ -4927,12 +4926,12 @@ data/nlu/lookups/products.txt
 ## synonym:USA
 - U.S.
 - US
-- usa
 - United States
+- usa
 
 ## synonym:United Kingdom
-- UK
 - U.K.
+- UK
 
 ## synonym:all
 - both
@@ -4951,18 +4950,18 @@ data/nlu/lookups/products.txt
 
 ## synonym:dialogflow
 - DialogFlow
+- google
 - DialogFlwo
 - dialog flow
-- google
 
 ## synonym:distance
 - distances
 
 ## synonym:entity recognition
-- ner
-- entity extraction 
-- Entity recognition
 - NER
+- Entity recognition
+- ner
+- entity extraction
 - recognition
 - etnity extraction
 - entities
@@ -4974,19 +4973,19 @@ data/nlu/lookups/products.txt
 - Helvetia
 
 ## synonym:intent classification
-- intent classificaton
-- intent recognition
 - intent
+- intent classificaton
 - intents
+- intent recognition
 
 ## synonym:italian
 - italina
 
 ## synonym:luis
-- LUIS
-- Luis
 - LUIS.ai
 - luis.ai
+- LUIS
+- Luis
 
 ## synonym:money
 - amounts
@@ -4997,8 +4996,8 @@ data/nlu/lookups/products.txt
 ## synonym:nlu
 - NLU
 - Natural Language Understanding
-- Nlu
 - rasa_nlu
+- Nlu
 
 ## synonym:organisation
 - companies
@@ -5007,26 +5006,26 @@ data/nlu/lookups/products.txt
 - Rasa
 
 ## synonym:stack
-- fullstack
-- Full Stack
 - Full
-- full stack
 - full staclk
 - Full stack
-- full
 - full framework
+- fullstack
+- full stack
+- Full Stack
+- full
 
 ## synonym:wit.ai
 - wit
 
 ## synonym:x
 - rasa x
-- Rasa X
-- X
+- RASA X
+- RASAX
 - Rasax
 - rasax
-- RASAX
-- RASA X
+- Rasa X
+- X
 
 ## regex:greet
 - hey[^\s]*
