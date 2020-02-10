@@ -1184,6 +1184,7 @@
 - in what way were you made?
 - so how were you made?
 - what are you made of
+- What is the use of you?
 
 ## intent:ask_howdoing
 - Ahoy matey how are you?
@@ -2258,7 +2259,7 @@
 - I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
-- purchase rasa enterprise 
+- purchase rasa enterprise
 - buy rasa enterprise
 - Ok I want to talk to your sales team immediately
 - Please connect me to someone from sales
@@ -4458,6 +4459,7 @@
 - i dont like bots
 - this is a really frustrating experience
 - you're rather dull
+- Bloody bot
 
 ## intent:react_positive
 - :)
@@ -4914,25 +4916,19 @@
 - thx
 - yes thanks
 
-## lookup: location
-data/nlu/lookups/location.txt
-
-## lookup: product
-data/nlu/lookups/products.txt
-
 ## synonym: duration
 - how long
 - durations
 
 ## synonym:USA
 - U.S.
-- US
-- usa
 - United States
+- usa
+- US
 
 ## synonym:United Kingdom
-- UK
 - U.K.
+- UK
 
 ## synonym:all
 - both
@@ -4943,29 +4939,29 @@ data/nlu/lookups/products.txt
 
 ## synonym:custom actions
 - actions
-- Actions
 - Custom actions
+- Actions
 
 ## synonym:date
 - dates
 
 ## synonym:dialogflow
-- DialogFlow
 - DialogFlwo
-- dialog flow
 - google
+- DialogFlow
+- dialog flow
 
 ## synonym:distance
 - distances
 
 ## synonym:entity recognition
-- ner
-- entity extraction 
 - Entity recognition
-- NER
-- recognition
 - etnity extraction
+- ner
+- recognition
+- entity extraction
 - entities
+- NER
 
 ## synonym:full stack developer
 - full stack develope
@@ -4976,17 +4972,17 @@ data/nlu/lookups/products.txt
 ## synonym:intent classification
 - intent classificaton
 - intent recognition
-- intent
 - intents
+- intent
 
 ## synonym:italian
 - italina
 
 ## synonym:luis
-- LUIS
-- Luis
 - LUIS.ai
 - luis.ai
+- LUIS
+- Luis
 
 ## synonym:money
 - amounts
@@ -4995,10 +4991,10 @@ data/nlu/lookups/products.txt
 - names
 
 ## synonym:nlu
-- NLU
-- Natural Language Understanding
-- Nlu
 - rasa_nlu
+- Natural Language Understanding
+- NLU
+- Nlu
 
 ## synonym:organisation
 - companies
@@ -5007,26 +5003,26 @@ data/nlu/lookups/products.txt
 - Rasa
 
 ## synonym:stack
-- fullstack
-- Full Stack
-- Full
-- full stack
-- full staclk
 - Full stack
-- full
+- Full
+- full staclk
 - full framework
+- Full Stack
+- full
+- full stack
+- fullstack
 
 ## synonym:wit.ai
 - wit
 
 ## synonym:x
-- rasa x
-- Rasa X
-- X
-- Rasax
 - rasax
 - RASAX
+- Rasax
+- Rasa X
+- X
 - RASA X
+- rasa x
 
 ## regex:greet
 - hey[^\s]*
