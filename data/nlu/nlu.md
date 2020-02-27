@@ -2258,7 +2258,7 @@
 - I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
-- purchase rasa enterprise 
+- purchase rasa enterprise
 - buy rasa enterprise
 - Ok I want to talk to your sales team immediately
 - Please connect me to someone from sales
@@ -3198,6 +3198,7 @@
 - [wordpress](company)
 - slack
 - e commerce bot
+- Tarek.abdelshafi@yahoo.com
 
 ## intent:explain
 - can you elaborate
@@ -4914,44 +4915,38 @@
 - thx
 - yes thanks
 
-## lookup: location
-data/nlu/lookups/location.txt
-
-## lookup: product
-data/nlu/lookups/products.txt
-
 ## synonym: duration
-- how long
 - durations
+- how long
 
 ## synonym:USA
 - U.S.
 - US
-- usa
 - United States
+- usa
 
 ## synonym:United Kingdom
-- UK
 - U.K.
+- UK
 
 ## synonym:all
 - both
 
 ## synonym:core
-- Core
 - CORE
+- Core
 
 ## synonym:custom actions
-- actions
-- Actions
 - Custom actions
+- Actions
+- actions
 
 ## synonym:date
 - dates
 
 ## synonym:dialogflow
-- DialogFlow
 - DialogFlwo
+- DialogFlow
 - dialog flow
 - google
 
@@ -4959,13 +4954,13 @@ data/nlu/lookups/products.txt
 - distances
 
 ## synonym:entity recognition
-- ner
-- entity extraction 
-- Entity recognition
-- NER
 - recognition
 - etnity extraction
+- ner
+- entity extraction
+- NER
 - entities
+- Entity recognition
 
 ## synonym:full stack developer
 - full stack develope
@@ -4974,19 +4969,19 @@ data/nlu/lookups/products.txt
 - Helvetia
 
 ## synonym:intent classification
-- intent classificaton
 - intent recognition
-- intent
+- intent classificaton
 - intents
+- intent
 
 ## synonym:italian
 - italina
 
 ## synonym:luis
-- LUIS
-- Luis
 - LUIS.ai
+- Luis
 - luis.ai
+- LUIS
 
 ## synonym:money
 - amounts
@@ -4996,9 +4991,9 @@ data/nlu/lookups/products.txt
 
 ## synonym:nlu
 - NLU
-- Natural Language Understanding
-- Nlu
 - rasa_nlu
+- Nlu
+- Natural Language Understanding
 
 ## synonym:organisation
 - companies
@@ -5007,26 +5002,26 @@ data/nlu/lookups/products.txt
 - Rasa
 
 ## synonym:stack
+- full stack
+- full framework
+- full
+- Full
 - fullstack
 - Full Stack
-- Full
-- full stack
 - full staclk
 - Full stack
-- full
-- full framework
 
 ## synonym:wit.ai
 - wit
 
 ## synonym:x
-- rasa x
 - Rasa X
+- RASA X
 - X
+- rasa x
+- RASAX
 - Rasax
 - rasax
-- RASAX
-- RASA X
 
 ## regex:greet
 - hey[^\s]*
