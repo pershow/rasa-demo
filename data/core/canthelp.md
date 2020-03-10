@@ -68,3 +68,7 @@
     - utter_thumbsup
     - action_deactivate_form
     - form{"name": null}
+
+## slots faq
+* ask_faq_slots
+  - utter_ask_faq
